@@ -1,7 +1,7 @@
 # NSDataDetector
 
-This playground demonstrates a weird difference in behaviour between Xcodes 12.5.1 and 13.1 regarding `NSDataDetector`.
-Try to run it using these two versions and take a look at the different outputs:
+This project demonstrates a weird difference in behaviour between Xcodes 12.5.1 and 13.1 regarding `NSDataDetector`.
+Try to run this app and its unit tests using these two Xcode versions and take a look at the different outputs:
 
 ## Xcode 12.5.1
 
@@ -50,4 +50,3 @@ DATE + LINK: ["2020/11/16", "2020/11/16", "www.application.com", "2020/11/16", "
 DATE: ["2020/11/16", "2020/11/16", "2020/11/16", "2020/11/16", "2020/11/16", "2020/11/16", "2020/11/16"]
 LINK: ["www.application.com", "https://www.application.com/path/to/api?"]
 ```
-
